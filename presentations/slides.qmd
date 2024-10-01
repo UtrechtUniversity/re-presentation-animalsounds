@@ -12,8 +12,49 @@ format:
 Detecting primate vocalizations in a jungle of audio recordings
 :::
 
-::: {.footer}
+## Background
+
+::: {.theme-section}
+Biodiversity monitoring in tropical rainforests in relation to wood logging certification
+
+<br> 
+
+Bioacoustic monitoring: 
+
+-   is a non-invasive method to monitor biodiversity
+-   dense canopy makes visual monitoring difficult
+
 :::
+
+## {data-background-image="images/Slide6.jpg"}
+
+
+## Challenges and objectives
+::: {.theme-section-large}
+-   Data processing requires automation
+-   Machine learning requires labeled data
+-   Low vocalization density
+-   Training data is not available
+-   Noisy environment
+:::
+
+## {data-background-image="images/Slide8.jpg"}
+
+## Challenges and objectives
+::: {.theme-section}
+-   Can we use data from a zoo to train a model, and detect vocalizations in the wild?
+-   If so > create a pipeline to automate the process for reuse in other projects
+:::
+
+## {data-background-image="images/Slide10.jpg"}
+
+## {data-background-image="images/Slide11.jpg"}
+
+## {data-background-image="images/Slide14.jpg"}
+
+## {data-background-image="images/Slide23.jpg"}
+
+## {data-background-image="images/Slide24.jpg"}
 
 ## Quarto
 ::: {.theme-section}
