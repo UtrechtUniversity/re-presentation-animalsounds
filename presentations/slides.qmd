@@ -3,35 +3,17 @@ format:
   revealjs:
     theme: themes/uu.scss
     logo: images/UU_logo_2021_EN_RGB.png
-    footer: "John Doe"
+    footer: "Parisa Zahedi & Jelle Treep"
 ---
 
-# Presentation title {data-background-color="#FFCD00"}
+# Animal Sounds {data-background-color="#FFCD00"}
 
 ::: {.r-stack}
-Presentation subtitle
+Detecting primate vocalizations in a jungle of audio recordings
 :::
 
 ::: {.footer}
 :::
-
-# {data-background-color="#FFCD00"}
-
-:::::::::::::: {.columns}
-
-::: {.column width="40%"}
-
-::: {.subtitle}
-
-Title
-
-:::
-:::
-::: {.column width="60%"}
-![](images/image.jpg){fig-align="right" width="300"}
-:::
-::::::::::::::
-
 
 ## Quarto
 ::: {.theme-section}
