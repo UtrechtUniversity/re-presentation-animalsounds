@@ -120,4 +120,6 @@ Bioacoustic monitoring:
 ::: {.theme-section}
 
 :::
+# {data-background-color="#FFCD00"}
 
+![](images/UU_logo_2021_EN_RGB_payoff.png)
