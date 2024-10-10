@@ -138,8 +138,14 @@ Convolutional Neural Networks (CNN)
 </div>
 :::
 
-## Architecture
+## Model Architecture - Derived from PANNs
 ::: {.theme-section}
+
+PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition
+
+- designed for audio event detection and classification
+
+- a combination of convolutional blocks and pooling operations 
 
 <div style="text-align: center;">  
 ![CNN10 Architecture](images/cnn10.png)
@@ -163,6 +169,11 @@ Convolutional Neural Networks (CNN)
 
 ::: {.theme-section}
 
+
+- Collaboration with ML audio expert
+- Involvement researcher
+- Data management
+- Code management (Matlab scripts, repo’s with playground folders, no real git workflow, documentation, package from early stage)
 :::
 
 ## Future work
