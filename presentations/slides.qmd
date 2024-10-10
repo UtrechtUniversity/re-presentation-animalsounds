@@ -149,7 +149,7 @@ Convolutional Neural Networks (CNN)
   - maps the features to the final output 
 :::
 ::: {.column width=65%}
-![](images/convolution.png){width=100%}
+![](images/convolution.png){width=80%,fig-align="center"}
 :::
 ::::
 :::
@@ -157,7 +157,7 @@ Convolutional Neural Networks (CNN)
 ## How does CNN work?
 ::: {.theme-section}
 
-![](images/cnn.png){width=80%}
+![](images/cnn.jpeg){width=80%}
 :::
 
 ## How doe we change audio to image?
@@ -197,6 +197,13 @@ PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognitio
 
 ::: {.theme-section}
 
+| Trained on | SVM | CNN | CNN10 |
+|----------|----------|----------|----------|
+| Sanctuary | 0.86 | 0.81 | 0.83 |
+| Synthetic | 0.65 | 0.82 | 0.85|
+| Sanctuary + Synthetic | 0.87| 0.83 | 0.87 |
+
+
 :::
 
 ## Deliverables
@@ -228,12 +235,18 @@ PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognitio
 - Involvement researcher
 - Data management
 - Code management (Matlab scripts, repo’s with playground folders, no real git workflow, documentation, package from early stage)
+- Research data challange
+
 :::
 
 ## Future work
 
 ::: {.theme-section}
 
+- Publication
+
+- Generic Audio Analysis Platform
+  - Modular Architecture
 :::
 
 # {data-background-color="#FFCD00"}
