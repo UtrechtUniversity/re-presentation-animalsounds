@@ -109,6 +109,11 @@ Team:
 ::: {.theme-section-larger}
 <br>
 How to test the classifiers?
+
+- cross-validation
+- need for an independent test set
+- super low density of vocalizations in the wild
+
 :::
 
 ## {data-background-image="images/Slide23.jpg"}
@@ -126,53 +131,33 @@ SVM
 :::
 
 
-## Project Overview
-
-::: {.theme-section}
-- Preprocessing
-  - Condensation
-  - Raven to wav 
-  - Generate synthetic data
-
-- Feature extractions
-  - audio features
-  - MFCC ...
-
-- Classification
-    - SVM
-    - Deep learning models
-
-
-:::
-
-
 ## Deep learning Models
 
-::: {.theme-section}
-<div style="font-size: 0.8em;">
+::: {.theme-section-small}
+
 Convolutional Neural Networks (CNN)
 
 - Convolutional layer
   - Detects features e.g., edges, textures, by applying filters
+
+:::: {.columns}
+::: {.column width=35%}
+
 - Pooling layer: 
   - Reduces the dimensionality of feature maps 
 - Fully Connected layer
   - maps the features to the final output 
-</div>
-<div style="text-align: center;">
-![](images/convolution.png)
-</div>
+:::
+::: {.column width=65%}
+![](images/convolution.png){width=100%}
+:::
+::::
 :::
 
 ## How does CNN work?
 ::: {.theme-section}
-- Input: Raw data, often an image (e.g., 32x32 RGB image).
-- 1: Apply convolutional filters to detect features like edges, corners, textures.
-- 2: Use pooling to reduce the size of feature maps (e.g., from 32x32 to 16x16).
-- 3: Pass the output through fully connected layers for classification.
-<div style="text-align: center;">  
-![](images/cnn.png)
-</div>
+
+![](images/cnn.png){width=80%}
 :::
 
 ## How doe we change audio to image?
@@ -208,17 +193,31 @@ PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognitio
 :::
 
 
-## Training details
-
-::: {.theme-section}
-
-:::
-
 ## Results
 
 ::: {.theme-section}
 
 :::
+
+## Deliverables
+
+::: {.theme-section}
+- Preprocessing
+  - Condensation
+  - Raven to wav 
+  - Generate synthetic data
+
+- Feature extractions
+  - audio features
+  - MFCC ...
+
+- Classification
+    - SVM
+    - Deep learning models
+
+
+:::
+
 
 ## Challenges & Learning points
 
