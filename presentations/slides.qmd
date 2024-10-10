@@ -149,8 +149,64 @@ SVM
 ## Deep learning Models
 
 ::: {.theme-section}
+<div style="font-size: 0.8em;">
+Convolutional Neural Networks (CNN)
 
+- Convolutional layer
+  - Detects features e.g., edges, textures, by applying filters
+- Pooling layer: 
+  - Reduces the dimensionality of feature maps 
+- Fully Connected layer
+  - maps the features to the final output 
+</div>
+<div style="text-align: center;">
+![](images/convolution.png)
+</div>
 :::
+
+## How does CNN work?
+::: {.theme-section}
+- Input: Raw data, often an image (e.g., 32x32 RGB image).
+- 1: Apply convolutional filters to detect features like edges, corners, textures.
+- 2: Use pooling to reduce the size of feature maps (e.g., from 32x32 to 16x16).
+- 3: Pass the output through fully connected layers for classification.
+<div style="text-align: center;">  
+![](images/cnn.png)
+</div>
+:::
+
+## How doe we change audio to image?
+::: {.theme-section}
+<b>Spectrogram</b>
+- represents the intensity of different frequencies as they change over time, typically using a color map 
+
+<b>Log-mel-spectrogram </b> a variation of the standard spectrogram that applies a filter bank and a log function on top of it. 
+
+-	making quieter sounds more detectable.
+
+-	Aligns the representation with human auditory perception
+
+-	Normalizes the features
+
+<div style="text-align: center;">  
+![](images/logmel.png)
+</div>
+:::
+
+## Model Architecture - Derived from PANNs
+::: {.theme-section}
+
+PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition
+
+- designed for audio event detection and classification
+
+- a combination of convolutional blocks and pooling operations 
+
+<div style="text-align: center;">  
+![CNN10 Architecture](images/cnn10.png)
+</div>
+:::
+
 
 ## Training details
 
@@ -168,6 +224,11 @@ SVM
 
 ::: {.theme-section}
 
+
+- Collaboration with ML audio expert
+- Involvement researcher
+- Data management
+- Code management (Matlab scripts, repo’s with playground folders, no real git workflow, documentation, package from early stage)
 :::
 
 ## Future work
@@ -175,6 +236,7 @@ SVM
 ::: {.theme-section}
 
 :::
+
 # {data-background-color="#FFCD00"}
 
 ![](images/UU_logo_2021_EN_RGB_payoff.png)
