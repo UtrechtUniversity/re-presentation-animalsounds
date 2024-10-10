@@ -26,8 +26,24 @@ Bioacoustic monitoring:
 
 :::
 
-## {data-background-image="images/Slide6.jpg"}
+## Background
 
+::: {.theme-section}
+Applied Data Science seed grant for interdisciplinary collaboration
+
+<br> 
+
+Team: 
+
+- Researcher biology
+- 2 biology students
+- Researcher in human speech recognition
+- Research Engineers (3x)
+
+:::
+
+
+## {data-background-image="images/Slide6.jpg"}
 
 ## Challenges and objectives
 ::: {.theme-section-large}
@@ -52,9 +68,63 @@ Bioacoustic monitoring:
 
 ## {data-background-image="images/Slide14.jpg"}
 
+::: {.fragment}
+![](images/condensation.png){width=50%}
+:::
+
+## Training data
+
+| Species | # vocalizations | example |
+|---------|--------------------|---|
+| Chimpanzee | 1190 | ![](audio/0209.wav) |
+| Guenon |  554 | ![](audio/098.wav) |
+| Mandrill | 2717 | ![](audio/1082.wav) |
+| Red Capped Mangabey | 584 | ![](audio/0010.wav) |
+
+## {data-background-image="images/Slide16.jpg" background-size="600px"}
+
+## {data-background-image="images/Slide18.jpg"}
+
+## Creating synthetic data
+
+::: {.theme-section}
+
+- "We need more"
+
+- Combine vocalizations with jungle noise
+
+- Dampen the vocalizations to simulate distance
+
+  - 0 dB
+  - -3.3 dB
+  - -6.6 dB
+  - -10 dB
+
+- For each segment, 4 new segments are created
+
+:::
+
+## Training and testing classifiers
+
+::: {.theme-section-larger}
+<br>
+How to test the classifiers?
+:::
+
 ## {data-background-image="images/Slide23.jpg"}
 
 ## {data-background-image="images/Slide24.jpg"}
+
+## Classical machine learning
+
+::: {.theme-section}
+Feature extraction inspired by human speech recognition
+
+Feature importance
+Feature selection
+SVM
+:::
+
 
 ## Project Overview
 
@@ -76,22 +146,7 @@ Bioacoustic monitoring:
 :::
 
 
-## Dataset
-
-::: {.theme-section}
-- size of data (sanctuary, synthetic)
-- Number of classes
-
-:::
-## Feature eplanation...
-:::
-
-## SVM Model
-
-::: {.theme-section}
-:::
-
-## Deep learning Models - CNN
+## Deep learning Models
 
 ::: {.theme-section}
 <div style="font-size: 0.8em;">
@@ -165,7 +220,7 @@ PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognitio
 
 :::
 
-## Challanges & Learning points
+## Challenges & Learning points
 
 ::: {.theme-section}
 
