@@ -54,6 +54,8 @@ Team:
 -   Noisy environment
 :::
 
+## {data-background-image="images/Slide13.jpg"}
+
 ## {data-background-image="images/Slide8.jpg"}
 
 ## Challenges and objectives
@@ -125,9 +127,23 @@ How to test the classifiers?
 ::: {.theme-section}
 Feature extraction inspired by human speech recognition
 
-Feature importance
-Feature selection
-SVM
+![](images/melspectrogram.png){width=80%}
+:::
+
+## Scikit-learn: Feature selection
+
+::: {.theme-section}
+
+Determining number of features to select with RFE
+![](images/RFE.png){width=60%}
+:::
+
+## Scikit-learn: SVM
+
+::: {.theme-section}
+- Using `feature_importances` method in ExtraTreesClassifier to select 50 most important features
+
+- Train SVM model with selected features
 :::
 
 
@@ -203,25 +219,34 @@ PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognitio
 | Synthetic | 0.65 | 0.82 | 0.85|
 | Sanctuary + Synthetic | 0.87| 0.83 | 0.87 |
 
+<br> 
+
+Numbers represent: Unweighted Average Recall (UAR)
 
 :::
 
-## Deliverables
+## Deliverables (1/2)
 
 ::: {.theme-section}
+Python modules for audio analysis
+
 - Preprocessing
-  - Condensation
-  - Raven to wav 
+  - Condensation for speeding up annotation
+  - Extracting relevant audio segments
   - Generate synthetic data
 
-- Feature extractions
-  - audio features
-  - MFCC ...
-
+- Feature extraction and selection
 - Classification
-    - SVM
-    - Deep learning models
+  - SVM
+  - Deep learning models
+:::
 
+## Deliverables (2/2)
+
+::: {.theme-section}
+Public train and test data
+
+<img src= "images/yoda.png" alt="dataset" style="border: 2px solid grey;">
 
 :::
 
@@ -235,7 +260,7 @@ PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognitio
 - Involvement researcher
 - Data management
 - Code management (Matlab scripts, repo’s with playground folders, no real git workflow, documentation, package from early stage)
-- Research data challange
+- Interspeech challenge 
 
 :::
 
