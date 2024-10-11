@@ -151,7 +151,7 @@ Determining number of features to select with RFE
 
 ::: {.theme-section-small}
 
-Convolutional Neural Networks (CNN)
+<b>Convolutional Neural Networks (CNN)</b>
 
 - Convolutional layer
   - Detects features e.g., edges, textures, by applying filters
